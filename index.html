@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calcular valor</title>
+
+
+</head>
+
+<body>
+  <h1>Aluguel de carros</h1>
+  <div class="card-prin">
+
+    <div class="opcao-mae">
+      <h3 class="escolhas">Escolha seu carro:</h3 class="escolhas">
+
+
+      <div class="opcoes">
+        <div class="carro">
+          <form action="">
+            <select id="marca-carro" required>
+              <option value="Selecione seu carro">Selecione seu carro</option>
+              <option value="Corolla">Corolla</option>
+              <option value="Gol">Gol</option>
+              <option value="Fiat Uno">Fiat Uno</option>
+              <option value="Cobalt">Cobalt</option>
+            </select>
+          </form>
+        </div>
+      </div>
+
+      <h3 class="escolhas">Escolha seu destino</h3>
+      <div class="opcoes">
+        <div class="destino">
+          <form action="">
+            <select id="destino-final" re>
+              <option value="vazio">Selecione seu destino</option>
+              <option value="Caruaru">Caruaru</option>
+              <option value="Salvador">Salvador</option>
+              <option value="Petrolina">Petrolina</option>
+              <option value="Serra talhada">Serra talhada</option>
+            </select>
+          </form>
+        </div>
+
+
+      </div>
+      <div class="botoes">
+        <button id="botao" type="button" onclick="limpar()">Limpar</button>
+        <button id="botao" type="submit" onclick="clicar()">Calcular</button>
+
+      </div>
+
+      <div class="texto"></div>
+    </div>
+    <div class=" imagem-carro"><img id="imagem-de-carro" src="./src/carro1.png" alt="">
+    </div>
+
+  </div>
+  <script src="./calcular.js"></script>
+</body>
+
+</html>
